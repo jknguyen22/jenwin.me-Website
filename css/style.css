@@ -31,31 +31,6 @@ ul{
 
 }
 
-#button_1{
-  height:38px;
-  background:lightgreen;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color: #ffffff;
-}
-#button_2{
-  height:38px;
-  background:lightgreen;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
-#button_3{
-  height:38px;
-  background:lightgreen;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
-
 .dark{
   padding:15px;
   background:#35424a;
@@ -107,7 +82,7 @@ header{
   color:#ffffff;
   padding-top:30px;
   min-height:45px;
-  border-bottom:lightgreen 3px solid;
+  border-bottom:rgb(255,127,80) 3px solid;
 }
 header{
   padding-bottom:20px;
@@ -142,7 +117,7 @@ header nav{
 
 
 header .highlight, header .current a{
-  color:lightgreen;
+  color:rgb(255,127,80);
   font-weight:bold;
 }
 
@@ -173,6 +148,6 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:lightgreen;
+  background-color:rgb(255,127,80);
   text-align: center;
 }
