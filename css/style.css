@@ -1,5 +1,5 @@
 body{
-  font: 15px/1.5'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+  /* font: 15px/1.5'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;; */
   padding:0;
   margin-bottom:50px;
   background-color:#282828;
@@ -106,7 +106,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 10px 0 10px;
+  padding: 0 12px 0 12px;
   font-weight: 800;
 }
 
@@ -126,7 +126,7 @@ header nav{
 
 header .highlight, header .current a{
   color:rgb(255,127,80);
-  font-weight:bold;
+  font-weight:1000;
 }
 
 header a:hover{
@@ -222,9 +222,17 @@ padding-top:20%;
 } */
 
 .titletext{
-	font-weight: 800;
+	font-weight: 700;
   font-size: 30px;
   padding-top:35px;
+}
+
+.contacttext {
+  padding-bottom: 10px;
+}
+.contactform ul li{
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 /******************************* Footer *********************************/
@@ -234,17 +242,31 @@ footer{
   bottom: 0;
   width: 100%;
 
-  padding-top:20px;
-  padding-bottom: 20px;
+  padding-top:24px;
+  padding-bottom: 24px;
   /* margin-top:20px; */
   color:#E0E0E0;
   background-color:rgb(255,127,80);
   text-align: center;
 }
 
-footer p {
-  margin-bottom: 0px;
+footer ul li{
+  display: inline-block;
+  /* font-size: 16px; */
+  padding: 0 12px 0 12px;
+  font-weight: 1000;
+
 }
+footer a{
+  color:#E0E0E0;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:18px;
+}
+
+/* footer p {
+  margin-bottom: 0px;
+} */
 
 /* footer {
   position: absolute;
