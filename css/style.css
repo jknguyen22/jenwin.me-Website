@@ -155,7 +155,7 @@ padding-top:20%;
   float: left;
   width: 50%;
   padding: 50px;
-  /* height: flex; Should be removed. Only for demonstration */
+  text-align: left;
 }
 
 /* Clear floats after the columns */
@@ -173,8 +173,6 @@ padding-top:20%;
 .column h6{
   font-style: italic;
 }
-
-
 
 /******************************* Projects: scrollbox*********************************/
 /* Box styles */
@@ -279,6 +277,10 @@ footer a{
   text-transform: uppercase;
   font-size:18px;
   font-weight: bold;
+}
+footer a:hover {
+  color:#cccccc;
+  font-weight:bold;
 }
 
 /* footer p {
